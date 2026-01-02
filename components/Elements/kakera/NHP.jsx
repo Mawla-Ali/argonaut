@@ -1,0 +1,55 @@
+import { useState } from "react";
+
+const Navhp = () => {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      {/* TOMBOL */}
+      <button onClick={() => setOpen(!open)} className="mt-1.5 block md:hidden right-12 z-50 fixed">
+        <img src="Img/Nav/menu.png" alt="" className="ml-10" />
+      </button>
+      {/* OVERLAY */}
+      {open && <div onClick={() => setOpen(false)} className="fixed inset-0 bg-black/40 z-40" />}
+      {/* NAVBAR HP */}
+      <nav
+        id="navhp"
+        className={`fixed top-0 right-0 h-screen w-64 z-50
+        transition-transform duration-300 ease-in-out
+        ${open ? "translate-x-0" : "translate-x-full"}`}
+      >
+        {/* Navbar HP */}
+        <div className="fixed right-0 top-0 h-12/12 w-60 bg-white z-50 rounded-l-2xl shadow-xl">
+          <div className="grid p-6 gap-6">
+            <a href="#" onClick={() => setOpen(false)} className="font-bold text-xl border-b-2 border-transparent hover:border-black transition duration-700">
+              Home
+            </a>
+            <a href="#About" onClick={() => setOpen(false)} className="font-bold text-xl border-b-2 border-transparent hover:border-black transition duration-700">
+              About Us
+            </a>
+            <a href="#Portofolio" onClick={() => setOpen(false)} className="font-bold text-xl border-b-2 border-transparent hover:border-black transition duration-700">
+              Portofolio
+            </a>
+            <a href="#Pricing" onClick={() => setOpen(false)} className="font-bold text-xl border-b-2 border-transparent hover:border-black transition duration-700">
+              Pricing
+            </a>
+
+            <div className="flex gap-x-10 gap-y-44 mt-[450px] -mb-12">
+              <a href="#" onClick={() => setOpen(false)} className="">
+                <img src="Img/Hero/lk.svg" className="h-10 w-10  invert" />
+              </a>
+              <a href="https://www.instagram.com/argonaut_657673/" onClick={() => setOpen(false)}>
+                <img src="/Img/Hero/ig.svg" className="h-10 w-10 invert" />
+              </a>
+              <a href="https://github.com/Mawla-Ali" onClick={() => setOpen(false)}>
+                <img src="/Img/Hero/gt.svg" className="h-10 w-10 invert" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </>
+  );
+};
+
+export default Navhp;

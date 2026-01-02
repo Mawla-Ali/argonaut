@@ -32,5 +32,8 @@
     "tailwindcss": "^4.1.17",
     "vite": "^7.2.4"
   },
+<<<<<<< HEAD
   "homepage": "https://Mawla-Ali.github.io/argonaut"
+=======
+>>>>>>> f8178699e04b013bb02a00cf913fe0f27323a091
 }

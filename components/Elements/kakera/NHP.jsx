@@ -39,10 +39,10 @@ const Navhp = () => {
                 <img src="Img/Hero/lk.svg" className="h-10 w-10  invert" />
               </a>
               <a href="https://www.instagram.com/argonaut_657673/" onClick={() => setOpen(false)}>
-                <img src="/Img/Hero/ig.svg" className="h-10 w-10 invert" />
+                <img src="Img/Hero/ig.svg" className="h-10 w-10 invert" />
               </a>
               <a href="https://github.com/Mawla-Ali" onClick={() => setOpen(false)}>
-                <img src="/Img/Hero/gt.svg" className="h-10 w-10 invert" />
+                <img src="Img/Hero/gt.svg" className="h-10 w-10 invert" />
               </a>
             </div>
           </div>

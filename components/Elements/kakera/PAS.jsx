@@ -11,7 +11,7 @@ const Ourservice = (props) => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-20 max-w-7xl md:gap-x-8">
             <div className="bg-blue-500 rounded-3xl p-8 mx-24 m-5 h-full flex flex-col shadow-2xl">
               <div className="flex justify-center p-20">
-                <img src="../../public/img/About/person.svg" alt="" className="border-4 rounded-3xl p-3 -mt-20 border-white mb-3 w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 min-w-20 min-h-20 object-contain" />
+                <img src="Img/About/person.svg" alt="" className="border-4 rounded-3xl p-3 -mt-20 border-white mb-3 w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 min-w-20 min-h-20 object-contain" />
               </div>
               <p className="flex justify-center font-bold text-2xl -mt-18 text-white">Pendampingan Penuh</p>
               <p className="text-white mt-4 text-xl">
@@ -21,7 +21,7 @@ const Ourservice = (props) => {
             </div>
             <div className="bg-blue-500 rounded-3xl p-8 mx-24 m-5 h-full flex flex-col  shadow-2xl">
               <div className="flex justify-center p-20">
-                <img src="../../public/img/About/tulis.svg" alt="" className="border-4 rounded-3xl p-3 -mt-20 border-white mb-3 w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 min-w-20 min-h-20 object-contain" />
+                <img src="Img/About/tulis.svg" alt="" className="border-4 rounded-3xl p-3 -mt-20 border-white mb-3 w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 min-w-20 min-h-20 object-contain" />
               </div>
               <p className="flex justify-center font-bold text-2xl -mt-18 text-white">Copywritting menarik</p>
               <p className="text-white mt-4 text-xl">
@@ -31,7 +31,7 @@ const Ourservice = (props) => {
             </div>
             <div className="bg-blue-500 rounded-3xl p-8 mx-24 m-5 h-full flex flex-col  shadow-2xl">
               <div className="flex justify-center p-20">
-                <img src="../../public/img/About/foc.svg" alt="" className="border-4 rounded-3xl p-3 -mt-20 border-white mb-3 w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 min-w-20 min-h-20 object-contain" />
+                <img src="Img/About/foc.svg" alt="" className="border-4 rounded-3xl p-3 -mt-20 border-white mb-3 w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 min-w-20 min-h-20 object-contain" />
               </div>
               <p className="flex justify-center font-bold text-2xl -mt-18 text-white">Fokus Tujuan Bisnis</p>
               <p className="text-white mt-4 text-xl">
@@ -41,7 +41,7 @@ const Ourservice = (props) => {
             </div>
             <div className="bg-blue-500 rounded-3xl p-8 mx-24 m-5 h-full flex flex-col  shadow-2xl">
               <div className="flex justify-center p-20">
-                <img src="../../public/img/About/che.svg" alt="" className="border-4 rounded-3xl p-3 -mt-20 border-white mb-3 w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 min-w-20 min-h-20 object-contain" />
+                <img src="Img/About/che.svg" alt="" className="border-4 rounded-3xl p-3 -mt-20 border-white mb-3 w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 min-w-20 min-h-20 object-contain" />
               </div>
               <p className="flex justify-center font-bold text-2xl -mt-18 text-white">Terima Beres, Tanpa stress</p>
               <p className="text-white mt-4 text-xl">

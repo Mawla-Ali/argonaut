@@ -17,7 +17,7 @@ const Ebk = (props) => {
           </div>
         </div>
         <div className="ml-24 hidden md:flex">
-          <img src=".../../../public/Img/Hero/Ilus(1).png" alt="" className="max-w-md lg:max-w-lg lg:ml-24" />
+          <img src="Img/Hero/Ilus(1).png" alt="" className="max-w-md lg:max-w-lg lg:ml-24" />
         </div>
       </div>
       <div className="p-3 -mt-10 justify-center drop-shadow-xl/50 md:ml-6">
